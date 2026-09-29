@@ -1,6 +1,6 @@
 <h1 align="center" style="border-botom: none">
   <b>
-    📚 Nelson-Siegel-Svannson algorithm 📚     
+    📚 Nelson-Siegel-Svennson algorithm 📚     
   </b>
 </h1>
 </br>
