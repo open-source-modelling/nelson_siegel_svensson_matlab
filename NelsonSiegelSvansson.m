@@ -1,5 +1,5 @@
-function out = NelsonSiegelSvansson(T, beta0, beta1, beta2, beta3, lambda0, lambda1)
-    % NelsonSiegelSvansson calculates the interpolated/extrapolated curve at points in the array "T" using the Nelson-Siegel-Svannson algorithm,
+function out = NelsonSiegelSvensson(T, beta0, beta1, beta2, beta3, lambda0, lambda1)
+    % NelsonSiegelSvensson calculates the interpolated/extrapolated curve at points in the array "T" using the Nelson-Siegel-Svannson algorithm,
     % parameterized with parameters beta0, beta1, beta2, beta3, lambda0, and lambda1. It returns a vector of points.
     % 
     % Arguments:
