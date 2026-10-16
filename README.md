@@ -62,5 +62,5 @@ OptiParam = NSSMinimize(beta0, beta1, beta2, beta3, lambda0, lambda1, TimeVec, Y
 disp("Optimal parameters are")
 disp(OptiParam)
 
-ResultYield = NelsonSiegelSvansson(TimeResultVec, OptiParam(1), OptiParam(2), OptiParam(3), OptiParam(4), OptiParam(5), OptiParam(6)); % Calculate the yield for tergeted maturities using the calibrated partameters
+ResultYield = NelsonSiegelSvensson(TimeResultVec, OptiParam(1), OptiParam(2), OptiParam(3), OptiParam(4), OptiParam(5), OptiParam(6)); % Calculate the yield for tergeted maturities using the calibrated partameters
 ```
