@@ -11,7 +11,7 @@ Popular algorithm for fitting a yield curve to obseved data.
 Data on bond yields is usualy avalible only for a small set of maturities, while the user is normaly interested in a wider range of yields. 
   
 ## Solution
-A popular solution is to use an algorithm to find a function that fits the existing datapoints. This way, the function can be used to interpolate/extrapolate any other point. The Nelson-Siegel-Svannson model is a curve-fitting-algorithm that is flexible enough to approximate most real world applications.
+A popular solution is to use an algorithm to find a function that fits the existing datapoints. This way, the function can be used to interpolate/extrapolate any other point. The Nelson-Siegel-Svennson model is a curve-fitting-algorithm that is flexible enough to approximate most real world applications.
 
 The Nelson-Siegel-Svensson is an extension of the 4-parameter Nelson-Siegel method to 6 parameters. The Scennson introduced two extra parameters to better fit the variety of shapes of either the instantaneous forward rate or yield curves that are observed in practice. 
 
